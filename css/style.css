@@ -997,8 +997,9 @@ header {
     h1{
         padding: 0;
     }
+
     .section-title {
-        width: 73%;
+        width: 84%;
     }
     .circle-icon {
         width: 80px;
