@@ -1071,3 +1071,101 @@ header {
   .list-unstyled {
     width: 100%;
     }
+
+    .paginator{
+        position: relative;
+        float: right;
+        margin-bottom: 20px;
+    }
+
+    .paginator li{
+          margin-top: 20px;
+          position: relative;
+          float: left;
+      
+          margin-right: 20px;
+    }
+
+
+    .paginator li .prev{
+            display: block;
+            height: 20px;
+            width: 20px;
+            background: url('images/noun_Arrow_2335739.svg') no-repeat;
+    }
+      
+    .paginator li .next{
+            display: block;
+            height: 20px;
+            width: 20px;
+            background: url('images/noun_Arrow_2335739.svg') no-repeat;
+          }
+
+
+/*// MEDIA QUERY //*/
+
+@media (max-width: 1921px){
+    .img-pina{
+        width: 35% !important;
+    }
+    .section{
+        padding: 40px 0;
+    }
+    nav{
+        max-height: 120px;
+    }
+    header {
+        padding-bottom: 40px;
+    }
+    .slider {
+        margin: 32px auto;
+    }
+}
+
+@media (max-width: 1601px){
+    .img-pina{
+        width: 32% !important;
+    }
+}
+
+@media (max-width: 1561px){
+    .img-pina{
+        width: 43% !important;
+    }
+}
+
+@media (max-width: 1441px){
+    .img-pina{
+        width: 36% !important;
+    }
+}
+
+@media (max-width: 1367px){
+    .img-pina{
+        width: 29% !important;
+    }
+}
+
+@media (max-width: 1281px){
+    .img-pina{
+        width: 30% !important;
+    }
+    h1{
+        font-size: 30px;
+    }
+    header{
+        padding: 100px;
+    }
+    .logo-navbar{
+        max-width: 38%;
+    }
+    nav {
+        max-height: 88px;
+    }
+}
+
+@media (max-width: 1025px){
+    .img-pina{
+        width: 35% !important;
+    }
+}

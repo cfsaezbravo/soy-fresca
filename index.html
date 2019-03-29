@@ -93,7 +93,11 @@
             </div>
 
             <!--Verduras-->
+            <div class="section-title">
+                <h3><span class="titulo-pequeno"></span>
+                </h3>
 
+            </div>
             <section class="regular slider carrusel1">
                 <div>
                     <img class="img-carrusel" src="images/verduras/aceituna.png">
@@ -266,8 +270,6 @@
                 <div>
                     <img class="img-carrusel" src="images/frutas/sandia.png">
                 </div>
-
-
 
             </section>
 
@@ -582,9 +584,11 @@
             $(".carrusel1").slick({
                 dots: false,
                 infinite: true,
-                slidesToShow: 3,
+                slidesToShow: 4,
                 slidesToScroll: 3,
                 rows: 2,
+                prevArrow: $('.prev'),
+                nextArrow: $('.next'),
                 responsive: [
                 {
                 breakpoint: 600,
