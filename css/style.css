@@ -1206,3 +1206,36 @@ header {
         width: 35% !important;
     }
 }
+
+@media (max-width: 415px){
+    header{
+        padding: 108px 0px 0px 0px !important;
+    }
+    .img-pina{
+        width: 94% !important;
+    }
+    .carrusel1 div p{
+        font-size: 13px;
+    }
+    .titulo-pequeno {
+        font-size: 15px;
+    }
+    .titulo-grande {
+        font-size: 39px;
+    }
+    .section-title-carrusel h3 {
+        font-size: 15px;
+    }
+    .section-title {
+        margin-bottom: 2rem;
+    }
+    #carrusel-catalogo .fa-chevron-right {
+        bottom: 145px;
+    }
+    #carrusel-catalogo .fa-chevron-left {
+        top: 59px;
+    }
+    .section{
+        padding-bottom: 20px;
+    }
+}
