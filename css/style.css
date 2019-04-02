@@ -162,7 +162,6 @@ p.lead {
 .section-title {
     width: 30%;
     margin: auto;
-    margin-bottom: 3rem;
 }
 
 .section-title-carrusel{
@@ -421,15 +420,23 @@ header {
 ----------------------*/
 
 .owl-carousel .owl-item img.client-img {
-    width: 265px;
+    width: 50%;
     margin: 30px auto;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
 .testimonials-single {
-    text-align: left;
-    max-width: 80%;
+    text-align: center;
+    max-width: 100%;
     margin: 0 auto;
+}
+
+.testimonials-single img{
+    width: 70% !important;
+}
+
+.list-unstyled {
+    height: 440px;
 }
 
 .blockquote {
@@ -1028,7 +1035,6 @@ header {
 
 .slider {
     width: 50%;
-    margin: 100px auto;
   }
 
 .slider2 {
@@ -1143,19 +1149,22 @@ header {
 
 @media (max-width: 1921px){
     .img-pina{
-        width: 35% !important;
+        width: 41% !important;
     }
     .section{
-        padding: 40px 0;
+        padding: 10px 0;
     }
     nav{
         max-height: 120px;
     }
     header {
+        padding-top: 70px;
         padding-bottom: 40px;
     }
     .slider {
         margin: 32px auto;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
 
@@ -1226,9 +1235,6 @@ header {
     .section-title-carrusel h3 {
         font-size: 15px;
     }
-    .section-title {
-        margin-bottom: 2rem;
-    }
     #carrusel-catalogo .fa-chevron-right {
         bottom: 145px;
     }
@@ -1237,5 +1243,9 @@ header {
     }
     .section{
         padding-bottom: 20px;
+    }
+    .slider{
+        margin: 0;
+        width: 100%;
     }
 }
