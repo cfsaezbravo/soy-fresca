@@ -17,7 +17,7 @@ $(function() {
      *-----------------------------------*/
     function menuscroll() {
         var $navmenu = $('.nav-menu');
-        if ($(window).scrollTop() > 50) {
+        if ($(window).scrollTop() > 100) {
             $navmenu.addClass('is-scrolling');
         } else {
             $navmenu.removeClass("is-scrolling");
@@ -58,6 +58,7 @@ $(function() {
             // Does a scroll target exist?
             if (target.length) {
                 // Only prevent default if animation is actually gonna happen
+                console.log("-" + target.offset().top);
                 event.preventDefault();
                 $('html, body').animate({
                     scrollTop: target.offset().top
@@ -112,8 +113,6 @@ $(function() {
 }); /* End Fn */
 
 /* Carrusel catalogo*/
-
-console.log ($(".basic2 .carousel"));
 
 /*
 $(".basic2 .carousel").jCarouselLite({

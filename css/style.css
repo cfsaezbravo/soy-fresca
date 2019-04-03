@@ -191,6 +191,10 @@ p.lead {
 /* NAVBAR
 ----------------------*/
 
+.container-nav{
+    max-width: 1400px;
+}
+
 .nav-menu {
     padding: 1rem 0;
     transition: all 0.3s ease;
@@ -216,7 +220,7 @@ p.lead {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1rem;
         padding-left: 1rem;
-        font-size: 14px;
+        font-size: 18px;
     }
     .navbar-nav>.nav-item>.nav-link.active:after {
         content: "";
@@ -1148,8 +1152,12 @@ header {
 /*// MEDIA QUERY //*/
 
 @media (max-width: 1921px){
+    .logo-navbar {
+        width: 27%;
+    }
     .img-pina{
-        width: 41% !important;
+        width: 36% !important;
+        margin-top: 80px;
     }
     .section{
         padding: 10px 0;
@@ -1170,31 +1178,33 @@ header {
 
 @media (max-width: 1601px){
     .img-pina{
-        width: 32% !important;
+        width: 45% !important;
+        margin-top: 32px;
     }
 }
 
 @media (max-width: 1561px){
     .img-pina{
-        width: 43% !important;
+        width: 60% !important;
+        margin-top: 47px;
     }
 }
 
 @media (max-width: 1441px){
     .img-pina{
-        width: 36% !important;
+        width: 50% !important;
     }
 }
 
 @media (max-width: 1367px){
-    .img-pina{
-        width: 29% !important;
-    }
+    .img-pina {
+    width: 42% !important;
 }
 
 @media (max-width: 1281px){
     .img-pina{
-        width: 30% !important;
+        width: 40% !important;
+        margin-top: 0;
     }
     h1{
         font-size: 30px;
@@ -1211,8 +1221,17 @@ header {
 }
 
 @media (max-width: 1025px){
-    .img-pina{
-        width: 35% !important;
+    header{
+        padding: 70px;
+    }
+    .img-pina {
+        width: 45% !important;
+    }
+    .nav-menu .col-md-12{
+        padding: 0;
+    }
+    .navbar-brand{
+        width: 170px;
     }
 }
 
