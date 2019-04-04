@@ -439,10 +439,6 @@ header {
     width: 70% !important;
 }
 
-.list-unstyled {
-    height: 440px;
-}
-
 .blockquote {
     color: #ffff;
     font-weight: 300;
